@@ -17,8 +17,8 @@ class SJNav: UINavigationController,UINavigationControllerDelegate {
     //添加标识，防止暴力操作
     var hold:Bool = false
     //自定义滑动动画类
-    lazy var transitionAnimation:SJTransitionAnimation = {
-        var transitionAnimation = SJTransitionAnimation()
+    lazy var transitionAnimation:TransitionAnimation = {
+        var transitionAnimation = TransitionAnimation()
         return transitionAnimation
     }()
     

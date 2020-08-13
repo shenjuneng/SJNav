@@ -20,7 +20,7 @@ enum JumpType {
     case dismiss
 }
 
-class SJTransitionAnimation: UIPercentDrivenInteractiveTransition, UIViewControllerAnimatedTransitioning {
+class TransitionAnimation: UIPercentDrivenInteractiveTransition, UIViewControllerAnimatedTransitioning {
     
     var animationType:JumpType?
     var fromVC = UIViewController()
