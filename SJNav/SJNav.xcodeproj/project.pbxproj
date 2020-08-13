@@ -15,8 +15,9 @@
 		9F853B6F24E4DA5000B932E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F853B6D24E4DA5000B932E7 /* LaunchScreen.storyboard */; };
 		9F853B7A24E4DA5000B932E7 /* SJNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F853B7924E4DA5000B932E7 /* SJNavTests.swift */; };
 		9F853B8524E4DA5000B932E7 /* SJNavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F853B8424E4DA5000B932E7 /* SJNavUITests.swift */; };
-		9F853B9424E4DA6F00B932E7 /* SJNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F853B9324E4DA6F00B932E7 /* SJNav.swift */; };
-		9F853B9624E4DF8100B932E7 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F853B9524E4DF8100B932E7 /* TransitionAnimation.swift */; };
+		9F853B9424E4DA6F00B932E7 /* SJBaseNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F853B9324E4DA6F00B932E7 /* SJBaseNav.swift */; };
+		9F853B9624E4DF8100B932E7 /* SJTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F853B9524E4DF8100B932E7 /* SJTransitionAnimation.swift */; };
+		9F853BE224E50DF800B932E7 /* SJNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F853BE124E50DF800B932E7 /* SJNav.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +52,9 @@
 		9F853B8024E4DA5000B932E7 /* SJNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F853B8424E4DA5000B932E7 /* SJNavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJNavUITests.swift; sourceTree = "<group>"; };
 		9F853B8624E4DA5000B932E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F853B9324E4DA6F00B932E7 /* SJNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJNav.swift; sourceTree = "<group>"; };
-		9F853B9524E4DF8100B932E7 /* TransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimation.swift; sourceTree = "<group>"; };
+		9F853B9324E4DA6F00B932E7 /* SJBaseNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJBaseNav.swift; sourceTree = "<group>"; };
+		9F853B9524E4DF8100B932E7 /* SJTransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJTransitionAnimation.swift; sourceTree = "<group>"; };
+		9F853BE124E50DF800B932E7 /* SJNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJNav.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				9F853B6224E4DA4E00B932E7 /* AppDelegate.swift */,
 				9F853B6424E4DA4E00B932E7 /* SceneDelegate.swift */,
 				9F853B6624E4DA4E00B932E7 /* ViewController.swift */,
+				9F853BE124E50DF800B932E7 /* SJNav.swift */,
 				9F853B6824E4DA4E00B932E7 /* Main.storyboard */,
 				9F853B6B24E4DA5000B932E7 /* Assets.xcassets */,
 				9F853B6D24E4DA5000B932E7 /* LaunchScreen.storyboard */,
@@ -136,8 +139,8 @@
 		9F853B9224E4DA5600B932E7 /* SJNav */ = {
 			isa = PBXGroup;
 			children = (
-				9F853B9524E4DF8100B932E7 /* TransitionAnimation.swift */,
-				9F853B9324E4DA6F00B932E7 /* SJNav.swift */,
+				9F853B9524E4DF8100B932E7 /* SJTransitionAnimation.swift */,
+				9F853B9324E4DA6F00B932E7 /* SJBaseNav.swift */,
 			);
 			path = SJNav;
 			sourceTree = "<group>";
@@ -273,10 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F853B9624E4DF8100B932E7 /* TransitionAnimation.swift in Sources */,
-				9F853B9424E4DA6F00B932E7 /* SJNav.swift in Sources */,
+				9F853B9624E4DF8100B932E7 /* SJTransitionAnimation.swift in Sources */,
+				9F853B9424E4DA6F00B932E7 /* SJBaseNav.swift in Sources */,
 				9F853B6724E4DA4E00B932E7 /* ViewController.swift in Sources */,
 				9F853B6324E4DA4E00B932E7 /* AppDelegate.swift in Sources */,
+				9F853BE224E50DF800B932E7 /* SJNav.swift in Sources */,
 				9F853B6524E4DA4E00B932E7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
