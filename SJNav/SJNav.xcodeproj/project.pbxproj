@@ -103,7 +103,7 @@
 		9F853B1E24E4C3AC00B932E7 /* SJNav */ = {
 			isa = PBXGroup;
 			children = (
-				9F853B4F24E4C5A400B932E7 /* SJNav */,
+				9F853B4F24E4C5A400B932E7 /* SJNavpod */,
 				9F853B1F24E4C3AC00B932E7 /* AppDelegate.swift */,
 				9F853B2124E4C3AC00B932E7 /* SceneDelegate.swift */,
 				9F853B2324E4C3AC00B932E7 /* ViewController.swift */,
@@ -133,13 +133,13 @@
 			path = SJNavUITests;
 			sourceTree = "<group>";
 		};
-		9F853B4F24E4C5A400B932E7 /* SJNav */ = {
+		9F853B4F24E4C5A400B932E7 /* SJNavpod */ = {
 			isa = PBXGroup;
 			children = (
 				9F853B5024E4CA2900B932E7 /* YYY.swift */,
 				9F853B5224E4CB4700B932E7 /* SJNav.swift */,
 			);
-			path = SJNav;
+			path = SJNavpod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
