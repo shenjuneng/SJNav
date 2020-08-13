@@ -40,7 +40,7 @@
         <!--Nav-->
         <scene sceneID="Djd-BF-e0c">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="soA-2H-EEJ" customClass="SJNav" customModule="SJNav" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="soA-2H-EEJ" customClass="SJJNav" customModule="SJNav" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="swq-nF-MSB">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

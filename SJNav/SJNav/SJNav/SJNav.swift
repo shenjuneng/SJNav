@@ -8,10 +8,7 @@
 
 import UIKit
 
-let kHeight:CGFloat = UIScreen.main.bounds.size.height
-let kWidth:CGFloat = UIScreen.main.bounds.size.width
-
-class SJBaseNav: UINavigationController,UINavigationControllerDelegate {
+class SJNav: UINavigationController,UINavigationControllerDelegate {
 
     //滑动进度
     var percentComplete:CGFloat = 0.0
@@ -54,7 +51,7 @@ class SJBaseNav: UINavigationController,UINavigationControllerDelegate {
 
 
 //MARK: add tap action
-extension SJBaseNav {
+extension SJNav {
     //侧滑事件
     @objc func edgTapAction(ges:UIPanGestureRecognizer) {
         //找到当前点
@@ -95,7 +92,7 @@ extension SJBaseNav {
 
 
 //MARK: nav delegate
-extension SJBaseNav {
+extension SJNav {
     //处理push/pop过渡动画
     func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationController.Operation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         

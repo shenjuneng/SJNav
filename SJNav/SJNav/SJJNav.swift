@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SJNav: SJBaseNav {
+class SJJNav: SJNav {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -8,6 +8,9 @@
 
 import UIKit
 
+let kHeight:CGFloat = UIScreen.main.bounds.size.height
+let kWidth:CGFloat = UIScreen.main.bounds.size.width
+
 var default_scale:CGFloat = 0.90 //初始缩放值
 
 enum JumpType {
