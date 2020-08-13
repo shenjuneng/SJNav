@@ -15,6 +15,8 @@
 		9F853B2C24E4C3B000B932E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F853B2A24E4C3B000B932E7 /* LaunchScreen.storyboard */; };
 		9F853B3724E4C3B100B932E7 /* SJNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F853B3624E4C3B100B932E7 /* SJNavTests.swift */; };
 		9F853B4224E4C3B100B932E7 /* SJNavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F853B4124E4C3B100B932E7 /* SJNavUITests.swift */; };
+		9F853B5124E4CA2900B932E7 /* YYY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F853B5024E4CA2900B932E7 /* YYY.swift */; };
+		9F853B5324E4CB4700B932E7 /* SJNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F853B5224E4CB4700B932E7 /* SJNav.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9F853B3D24E4C3B100B932E7 /* SJNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F853B4124E4C3B100B932E7 /* SJNavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJNavUITests.swift; sourceTree = "<group>"; };
 		9F853B4324E4C3B100B932E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F853B5024E4CA2900B932E7 /* YYY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYY.swift; sourceTree = "<group>"; };
+		9F853B5224E4CB4700B932E7 /* SJNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJNav.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 		9F853B4F24E4C5A400B932E7 /* SJNav */ = {
 			isa = PBXGroup;
 			children = (
+				9F853B5024E4CA2900B932E7 /* YYY.swift */,
+				9F853B5224E4CB4700B932E7 /* SJNav.swift */,
 			);
 			path = SJNav;
 			sourceTree = "<group>";
@@ -270,6 +276,8 @@
 				9F853B2424E4C3AC00B932E7 /* ViewController.swift in Sources */,
 				9F853B2024E4C3AC00B932E7 /* AppDelegate.swift in Sources */,
 				9F853B2224E4C3AC00B932E7 /* SceneDelegate.swift in Sources */,
+				9F853B5324E4CB4700B932E7 /* SJNav.swift in Sources */,
+				9F853B5124E4CA2900B932E7 /* YYY.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
