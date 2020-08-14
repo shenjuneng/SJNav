@@ -52,7 +52,6 @@
     CGPoint translation  = [ges translationInView:ges.view];
     // 滑动比例
     self.percentComplete = fabs(translation.x/kWidth);
-//    NSLog(@"%f", self.percentComplete);
     self.percentComplete = MIN(MAX(self.percentComplete, 0.01), 0.99);
     if (translation.x < 0) {
         //手势左滑的状态相当于滑动比例为0，
