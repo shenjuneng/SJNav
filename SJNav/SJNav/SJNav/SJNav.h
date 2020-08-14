@@ -9,5 +9,9 @@
 #ifndef SJNav_h
 #define SJNav_h
 
+#define kHeight   [UIScreen mainScreen].bounds.size.height
+#define kWidth  [UIScreen mainScreen].bounds.size.width
+
+
 
 #endif /* SJNav_h */

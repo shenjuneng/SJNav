@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F65006524E61EE400BAB60D /* SJBaseNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F65006424E61EE400BAB60D /* SJBaseNav.m */; };
+		9F65006D24E65B8300BAB60D /* SSJJNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F65006C24E65B8300BAB60D /* SSJJNav.m */; };
+		9F65007024E65C1700BAB60D /* TwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F65006F24E65C1700BAB60D /* TwoVC.m */; };
 		9F853C3624E52C6800B932E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F853C3524E52C6800B932E7 /* AppDelegate.m */; };
 		9F853C3924E52C6800B932E7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F853C3824E52C6800B932E7 /* SceneDelegate.m */; };
 		9F853C3C24E52C6800B932E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F853C3B24E52C6800B932E7 /* ViewController.m */; };
@@ -16,6 +19,7 @@
 		9F853C4724E52C6A00B932E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F853C4624E52C6A00B932E7 /* main.m */; };
 		9F853C5124E52C6A00B932E7 /* SJNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F853C5024E52C6A00B932E7 /* SJNavTests.m */; };
 		9F853C5C24E52C6A00B932E7 /* SJNavUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F853C5B24E52C6A00B932E7 /* SJNavUITests.m */; };
+		9F853C6D24E52FBE00B932E7 /* SJTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F853C6C24E52FBE00B932E7 /* SJTransitionAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F65006324E61EE400BAB60D /* SJBaseNav.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJBaseNav.h; sourceTree = "<group>"; };
+		9F65006424E61EE400BAB60D /* SJBaseNav.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJBaseNav.m; sourceTree = "<group>"; };
+		9F65006B24E65B8300BAB60D /* SSJJNav.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSJJNav.h; sourceTree = "<group>"; };
+		9F65006C24E65B8300BAB60D /* SSJJNav.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSJJNav.m; sourceTree = "<group>"; };
+		9F65006E24E65C1700BAB60D /* TwoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoVC.h; sourceTree = "<group>"; };
+		9F65006F24E65C1700BAB60D /* TwoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoVC.m; sourceTree = "<group>"; };
 		9F853C3124E52C6800B932E7 /* SJNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F853C3424E52C6800B932E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F853C3524E52C6800B932E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,6 +65,8 @@
 		9F853C5B24E52C6A00B932E7 /* SJNavUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJNavUITests.m; sourceTree = "<group>"; };
 		9F853C5D24E52C6A00B932E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F853C6A24E52CC700B932E7 /* SJNav.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJNav.h; sourceTree = "<group>"; };
+		9F853C6B24E52FBE00B932E7 /* SJTransitionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJTransitionAnimation.h; sourceTree = "<group>"; };
+		9F853C6C24E52FBE00B932E7 /* SJTransitionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJTransitionAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +124,10 @@
 				9F853C3824E52C6800B932E7 /* SceneDelegate.m */,
 				9F853C3A24E52C6800B932E7 /* ViewController.h */,
 				9F853C3B24E52C6800B932E7 /* ViewController.m */,
+				9F65006B24E65B8300BAB60D /* SSJJNav.h */,
+				9F65006C24E65B8300BAB60D /* SSJJNav.m */,
+				9F65006E24E65C1700BAB60D /* TwoVC.h */,
+				9F65006F24E65C1700BAB60D /* TwoVC.m */,
 				9F853C3D24E52C6800B932E7 /* Main.storyboard */,
 				9F853C4024E52C6A00B932E7 /* Assets.xcassets */,
 				9F853C4224E52C6A00B932E7 /* LaunchScreen.storyboard */,
@@ -143,6 +159,10 @@
 			isa = PBXGroup;
 			children = (
 				9F853C6A24E52CC700B932E7 /* SJNav.h */,
+				9F65006324E61EE400BAB60D /* SJBaseNav.h */,
+				9F65006424E61EE400BAB60D /* SJBaseNav.m */,
+				9F853C6B24E52FBE00B932E7 /* SJTransitionAnimation.h */,
+				9F853C6C24E52FBE00B932E7 /* SJTransitionAnimation.m */,
 			);
 			path = SJNav;
 			sourceTree = "<group>";
@@ -277,8 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F853C6D24E52FBE00B932E7 /* SJTransitionAnimation.m in Sources */,
+				9F65006524E61EE400BAB60D /* SJBaseNav.m in Sources */,
 				9F853C3C24E52C6800B932E7 /* ViewController.m in Sources */,
+				9F65006D24E65B8300BAB60D /* SSJJNav.m in Sources */,
 				9F853C3624E52C6800B932E7 /* AppDelegate.m in Sources */,
+				9F65007024E65C1700BAB60D /* TwoVC.m in Sources */,
 				9F853C4724E52C6A00B932E7 /* main.m in Sources */,
 				9F853C3924E52C6800B932E7 /* SceneDelegate.m in Sources */,
 			);
