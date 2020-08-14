@@ -10,6 +10,8 @@
 		9F65006524E61EE400BAB60D /* SJBaseNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F65006424E61EE400BAB60D /* SJBaseNav.m */; };
 		9F65006D24E65B8300BAB60D /* SSJJNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F65006C24E65B8300BAB60D /* SSJJNav.m */; };
 		9F65007024E65C1700BAB60D /* TwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F65006F24E65C1700BAB60D /* TwoVC.m */; };
+		9F6500BB24E66D0A00BAB60D /* SJBlack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6500B924E66D0A00BAB60D /* SJBlack@3x.png */; };
+		9F6500BC24E66D0A00BAB60D /* SJWhite@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6500BA24E66D0A00BAB60D /* SJWhite@3x.png */; };
 		9F853C3624E52C6800B932E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F853C3524E52C6800B932E7 /* AppDelegate.m */; };
 		9F853C3924E52C6800B932E7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F853C3824E52C6800B932E7 /* SceneDelegate.m */; };
 		9F853C3C24E52C6800B932E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F853C3B24E52C6800B932E7 /* ViewController.m */; };
@@ -46,6 +48,8 @@
 		9F65006C24E65B8300BAB60D /* SSJJNav.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSJJNav.m; sourceTree = "<group>"; };
 		9F65006E24E65C1700BAB60D /* TwoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoVC.h; sourceTree = "<group>"; };
 		9F65006F24E65C1700BAB60D /* TwoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoVC.m; sourceTree = "<group>"; };
+		9F6500B924E66D0A00BAB60D /* SJBlack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SJBlack@3x.png"; sourceTree = "<group>"; };
+		9F6500BA24E66D0A00BAB60D /* SJWhite@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SJWhite@3x.png"; sourceTree = "<group>"; };
 		9F853C3124E52C6800B932E7 /* SJNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F853C3424E52C6800B932E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F853C3524E52C6800B932E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -94,6 +98,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F6500B524E66C0400BAB60D /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				9F65006324E61EE400BAB60D /* SJBaseNav.h */,
+				9F65006424E61EE400BAB60D /* SJBaseNav.m */,
+				9F853C6B24E52FBE00B932E7 /* SJTransitionAnimation.h */,
+				9F853C6C24E52FBE00B932E7 /* SJTransitionAnimation.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		9F6500B624E66C2500BAB60D /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				9F6500B924E66D0A00BAB60D /* SJBlack@3x.png */,
+				9F6500BA24E66D0A00BAB60D /* SJWhite@3x.png */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
 		9F853C2824E52C6800B932E7 = {
 			isa = PBXGroup;
 			children = (
@@ -159,10 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				9F853C6A24E52CC700B932E7 /* SJNav.h */,
-				9F65006324E61EE400BAB60D /* SJBaseNav.h */,
-				9F65006424E61EE400BAB60D /* SJBaseNav.m */,
-				9F853C6B24E52FBE00B932E7 /* SJTransitionAnimation.h */,
-				9F853C6C24E52FBE00B932E7 /* SJTransitionAnimation.m */,
+				9F6500B624E66C2500BAB60D /* NavBar */,
+				9F6500B524E66C0400BAB60D /* Transition */,
 			);
 			path = SJNav;
 			sourceTree = "<group>";
@@ -272,6 +294,8 @@
 			files = (
 				9F853C4424E52C6A00B932E7 /* LaunchScreen.storyboard in Resources */,
 				9F853C4124E52C6A00B932E7 /* Assets.xcassets in Resources */,
+				9F6500BC24E66D0A00BAB60D /* SJWhite@3x.png in Resources */,
+				9F6500BB24E66D0A00BAB60D /* SJBlack@3x.png in Resources */,
 				9F853C3F24E52C6800B932E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,7 @@
 #define kHeight   [UIScreen mainScreen].bounds.size.height
 #define kWidth  [UIScreen mainScreen].bounds.size.width
 
+#import "SJBaseNav.h"
 
 
 #endif /* SJNav_h */
