@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SJNav.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    SJNavConfig *config = [[SJNavConfig alloc] init];
+    config.leftItemImg = @"SJWhite";
+    config.itemLeftSpace = 10;
+    config.itemRightSpace = 20;
+    config.naviBgColor = UIColor.greenColor;
+    [SJNavConfigSingle shareConfig].config = config;
     return YES;
 }
 

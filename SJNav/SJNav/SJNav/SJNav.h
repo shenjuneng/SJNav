@@ -12,7 +12,20 @@
 #define kHeight   [UIScreen mainScreen].bounds.size.height
 #define kWidth  [UIScreen mainScreen].bounds.size.width
 
-#import "SJBaseNav.h"
+#define kStatusHeight \
+({CGFloat sh = 0.0;\
+if (@available(iOS 13.0, *)) {\
+    sh = [[[[[UIApplication sharedApplication] windows] firstObject] windowScene] statusBarManager].statusBarFrame.size.height;\
+} else {\
+    sh = 20;\
+}\
+(sh);})
 
+#define kNaviHeight      (kStatusHeight+44)
+
+#import "SJBaseNav.h"
+#import "SJNavConfig.h"
+#import "SJNavConfigSingle.h"
+#import "UIView+SJLayout.h"
 
 #endif /* SJNav_h */

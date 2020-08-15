@@ -7,6 +7,7 @@
 //
 
 #import "TwoVC.h"
+#import "SJNavConfigSingle.h"
 
 @interface TwoVC ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    SJNavConfigSingle *con = [SJNavConfigSingle shareConfig];
+    NSLog(@"%@", con);
+    
+    self.naviBgColor = UIColor.blueColor;
+
 }
 - (IBAction)clickBack:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];

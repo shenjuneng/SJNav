@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SJBaseViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TwoVC : UIViewController
+@interface TwoVC : SJBaseViewController
 
 @end
 

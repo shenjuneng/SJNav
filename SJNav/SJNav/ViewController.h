@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SJBaseViewController.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : SJBaseViewController
 
 
 @end
