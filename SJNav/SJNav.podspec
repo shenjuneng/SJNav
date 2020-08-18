@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SJNav"
-  spec.version      = "2.0.2"
+  spec.version      = "2.0.4"
   spec.summary      = "A short description of SJNav."
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SJNav", "SJNav/SJNav/SJNav/**/*.{h,m}"
+  spec.source_files  = "SJNav", "SJNav/SJNav/SJNav/**/*"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
