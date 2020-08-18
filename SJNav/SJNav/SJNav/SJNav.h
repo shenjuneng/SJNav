@@ -4,7 +4,7 @@
 //
 //  Created by 沈骏 on 2020/8/13.
 //  Copyright © 2020 沈骏. All rights reserved.
-//  版本号: 2.0.2
+//  版本号: 2.0.5
 
 #ifndef SJNav_h
 #define SJNav_h
