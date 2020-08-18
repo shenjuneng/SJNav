@@ -4,7 +4,7 @@
 //
 //  Created by 沈骏 on 2020/8/13.
 //  Copyright © 2020 沈骏. All rights reserved.
-//
+//  版本号: 2.0.2
 
 #ifndef SJNav_h
 #define SJNav_h
@@ -29,5 +29,6 @@ if (@available(iOS 13.0, *)) {\
 #import "SJNavConfig.h"
 #import "SJNavConfigSingle.h"
 #import "UIView+SJLayout.h"
+#import "SJBaseViewController.h"
 
 #endif /* SJNav_h */
