@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SJNav"
-  spec.version      = "2.0.5"
+  spec.version      = "2.0.7"
   spec.summary      = "A short description of SJNav."
 
   # This description is used to generate tags and improve search results.
@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-    spec.resources = "SJNav/SJNav/SJNav/NavBar/*.png"
+  #  spec.resources = "SJNav/SJNav/SJNav/NavBar/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
