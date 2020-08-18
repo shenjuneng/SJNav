@@ -110,17 +110,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F6500B524E66C0400BAB60D /* Transition */ = {
-			isa = PBXGroup;
-			children = (
-				9F65006324E61EE400BAB60D /* SJBaseNav.h */,
-				9F65006424E61EE400BAB60D /* SJBaseNav.m */,
-				9F853C6B24E52FBE00B932E7 /* SJTransitionAnimation.h */,
-				9F853C6C24E52FBE00B932E7 /* SJTransitionAnimation.m */,
-			);
-			path = Transition;
-			sourceTree = "<group>";
-		};
 		9F6500B624E66C2500BAB60D /* NavBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +161,7 @@
 				9F65006C24E65B8300BAB60D /* SSJJNav.m */,
 				9F65006E24E65C1700BAB60D /* TwoVC.h */,
 				9F65006F24E65C1700BAB60D /* TwoVC.m */,
+				9F6500B624E66C2500BAB60D /* NavBar */,
 				9F853C3D24E52C6800B932E7 /* Main.storyboard */,
 				9F853C4024E52C6A00B932E7 /* Assets.xcassets */,
 				9F853C4224E52C6A00B932E7 /* LaunchScreen.storyboard */,
@@ -203,8 +193,10 @@
 			isa = PBXGroup;
 			children = (
 				9F853C6A24E52CC700B932E7 /* SJNav.h */,
-				9F6500B624E66C2500BAB60D /* NavBar */,
-				9F6500B524E66C0400BAB60D /* Transition */,
+				9F65006324E61EE400BAB60D /* SJBaseNav.h */,
+				9F65006424E61EE400BAB60D /* SJBaseNav.m */,
+				9F853C6B24E52FBE00B932E7 /* SJTransitionAnimation.h */,
+				9F853C6C24E52FBE00B932E7 /* SJTransitionAnimation.m */,
 			);
 			path = SJNav;
 			sourceTree = "<group>";
