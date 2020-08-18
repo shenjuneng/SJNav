@@ -28,7 +28,7 @@
 //    rightView.backgroundColor = UIColor.redColor;
 //    self.rightView = rightView;
     
-    [self setRightItemText:@"888" withTextColor:UIColor.redColor withWidth:60];
+    [self setRightItemText:@"999" withTextColor:UIColor.redColor withWidth:60];
     
     [self setRightFontSize:[UIFont systemFontOfSize:30]];
 }

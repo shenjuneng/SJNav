@@ -301,7 +301,7 @@
     
     if (buttonWidth > 0) {
         self.rightButton.width = buttonWidth;
-//        self.rightButton.right = kWidth - (self.config.itemRightSpace ? self.config.itemRightSpace : DefaultItemLeftRightSpace);
+        self.rightButton.right = kWidth - (self.config.itemRightSpace ? self.config.itemRightSpace : DefaultItemLeftRightSpace);
     }
 }
 
