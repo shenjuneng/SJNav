@@ -23,6 +23,14 @@
     NSLog(@"%@", con);
     
 //    self.naviBgColor = UIColor.redColor;
+    
+//    UIView *rightView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+//    rightView.backgroundColor = UIColor.redColor;
+//    self.rightView = rightView;
+    
+    [self setRightItemText:@"888" withTextColor:UIColor.redColor withWidth:60];
+    
+    [self setRightFontSize:[UIFont systemFontOfSize:30]];
 }
 
 

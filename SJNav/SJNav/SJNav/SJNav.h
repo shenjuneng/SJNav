@@ -23,6 +23,8 @@ if (@available(iOS 13.0, *)) {\
 
 #define kNaviHeight      (kStatusHeight+44)
 
+#define DefaultItemLeftRightSpace 4
+
 #import "SJBaseNav.h"
 #import "SJNavConfig.h"
 #import "SJNavConfigSingle.h"
